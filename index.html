@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <a href="img_search.html"><input type="submit" value="Пошук зображень"></a>
+        <a href="ext_search.html"><input type="submit" value="Розширений пошук"></a>
+    </div>
+        <img class="image" src="images.png" alt="Google">
+        <form action="https://google.com/search">  
+        <input class="form_input" type="text" name="q" placeholder="Шукайте в Google або введіть URL-адресу">
+        <div class="buttons">
+            <input type="submit" value="Google Search"> 
+            <input type="submit" value="Мені пощастить"> 
+        </div>
+</body>
 </html>
