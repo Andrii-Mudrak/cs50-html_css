@@ -42,12 +42,9 @@
 .image {
     display: block;
     text-align: center;
-    /* margin: auto; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
     width: 30%;
-    padding: auto;
 }
 
 /* вирівнювання кнопок */
